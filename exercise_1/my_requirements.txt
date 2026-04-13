@@ -1,0 +1,34 @@
+- make a website that is as similar as possibleto the one shown 
+in the next couple of photos 
+- any text is acceptable
+
+
+SHORT EXPLANATION OF DIFFERENCES BETWEEN CLASS AND ID:
+
+- a class is a reusable style that can be applied to multiple elements
+- while an ID is a unique identifier that can only be applied to one element on a page.
+
+
+(i never have touched copilot but currently it just did the work for me...)
+
+class is used with a dot (.) and id is used with a hashtag (#) in CSS.
+
+
+.class{
+    /* styles for class */
+}
+
+#id{
+    /* styles for id */
+}
+
+class and id are applies like this (in button, div, etc.):
+
+<button class="class-name" id="id-name">Click me</button>
+<div class="class-name" id="id-name">Content here</div>
+
+you dont need to have an id and class for each element.
+id is used when you want to target a specific element that is
+UNIQUE and class is just for repetitive styles once again
+(if you need multiple texts with the same style..)
+
